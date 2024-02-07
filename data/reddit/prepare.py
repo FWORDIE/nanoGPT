@@ -4,7 +4,7 @@ import tiktoken
 import numpy as np
 
 # download the tiny shakespeare dataset
-input_file_path = os.path.join(os.path.dirname(__file__), 'input.txt')
+input_file_path = os.path.join(os.path.dirname(__file__), 'redditdata.txt')
 if not os.path.exists(input_file_path):
     data_url = '/Users/wordie/Documents/00 Projects/000 AI FIXED MY REALTIONSHIP/scraper/redditdata.txt'
     with open(input_file_path, 'w') as f:

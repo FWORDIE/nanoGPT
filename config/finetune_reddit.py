@@ -1,6 +1,6 @@
 import time
 
-out_dir = 'out-reddit-fine'
+out_dir = 'out-reddit-fine-2'
 eval_interval = 5
 eval_iters = 40
 wandb_log = False # feel free to turn on
@@ -33,6 +33,6 @@ batch_size = 12
 n_layer = 4
 n_head = 4
 n_embd = 128
-max_iters = 100
+max_iters = 50
 lr_decay_iters = 2000
 dropout = 0.0
